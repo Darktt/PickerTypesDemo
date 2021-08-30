@@ -27,11 +27,13 @@ public struct PickerStyleView<PickerStyle>: View where PickerStyle: SwiftUI.Pick
             
             Spacer()
             
+            Text("Selected: \(self.selectedData)")
+            
             Picker("Pick a number.", selection: self.$selectedData) {
                 
                 ForEach(self.pickingDataes) {
                     
-                    Text($0)
+                    Text($0).tag($0)
                 }
             }.pickerStyle(self.pickerStyle)
             
