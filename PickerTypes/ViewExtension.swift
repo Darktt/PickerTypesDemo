@@ -27,13 +27,7 @@ extension View
         
         if ignoreSafeArea {
             
-            if #available(iOS 14.0, OSX 11.0, *) {
-                
-                self.background(linearGradient.ignoresSafeArea())
-            } else {
-                
-                self.background(linearGradient)
-            }
+            self.background(linearGradient.ignoresSafeArea())
         } else {
             
             self.background(linearGradient)
@@ -48,13 +42,7 @@ extension View
         
         if ignoreSafeArea {
             
-            if #available(iOS 14.0, OSX 11.0, *) {
-                
-                self.background(angularGradient.ignoresSafeArea())
-            } else {
-                
-                self.background(angularGradient)
-            }
+            self.background(angularGradient.ignoresSafeArea())
         } else {
             
             self.background(angularGradient)
@@ -69,13 +57,7 @@ extension View
         
         if ignoreSafeArea {
             
-            if #available(iOS 14.0, OSX 11.0, *) {
-                
-                self.background(radialGradient.ignoresSafeArea())
-            } else {
-                
-                self.background(radialGradient)
-            }
+            self.background(radialGradient.ignoresSafeArea())
         } else {
             
             self.background(radialGradient)

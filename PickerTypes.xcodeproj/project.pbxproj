@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F29E616526DC5EA0001A7D18 /* PickerTypesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E616426DC5EA0001A7D18 /* PickerTypesApp.swift */; };
+		F25049FD26DCC7F7004FCBFA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25049F926DCC7ED004FCBFA /* ViewExtension.swift */; };
+		F25049FE26DCC7F7004FCBFA /* PickerStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25049FA26DCC7F7004FCBFA /* PickerStyles.swift */; };
+		F25049FF26DCC7F7004FCBFA /* PickerTypesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25049FB26DCC7F7004FCBFA /* PickerTypesApp.swift */; };
+		F2504A0026DCC7F7004FCBFA /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25049FC26DCC7F7004FCBFA /* PickerStyleView.swift */; };
 		F29E616726DC5EA0001A7D18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E616626DC5EA0001A7D18 /* ContentView.swift */; };
 		F29E616926DC5EA1001A7D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29E616826DC5EA1001A7D18 /* Assets.xcassets */; };
 		F29E616C26DC5EA1001A7D18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29E616B26DC5EA1001A7D18 /* Preview Assets.xcassets */; };
-		F29E617626DC6AE2001A7D18 /* PickerStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E617526DC6AE2001A7D18 /* PickerStyles.swift */; };
-		F29E617A26DCB1DC001A7D18 /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E617926DCB1DC001A7D18 /* PickerStyleView.swift */; };
-		F29E617C26DCBCBA001A7D18 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E617B26DCBCBA001A7D18 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F25049F926DCC7ED004FCBFA /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		F25049FA26DCC7F7004FCBFA /* PickerStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerStyles.swift; sourceTree = "<group>"; };
+		F25049FB26DCC7F7004FCBFA /* PickerTypesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTypesApp.swift; sourceTree = "<group>"; };
+		F25049FC26DCC7F7004FCBFA /* PickerStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
 		F29E616126DC5EA0001A7D18 /* PickerTypes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerTypes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F29E616426DC5EA0001A7D18 /* PickerTypesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTypesApp.swift; sourceTree = "<group>"; };
 		F29E616626DC5EA0001A7D18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F29E616826DC5EA1001A7D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F29E616B26DC5EA1001A7D18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F29E616D26DC5EA1001A7D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F29E617526DC6AE2001A7D18 /* PickerStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyles.swift; sourceTree = "<group>"; };
-		F29E617926DCB1DC001A7D18 /* PickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
-		F29E617B26DCBCBA001A7D18 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 		F29E616326DC5EA0001A7D18 /* PickerTypes */ = {
 			isa = PBXGroup;
 			children = (
-				F29E617B26DCBCBA001A7D18 /* ViewExtension.swift */,
-				F29E617526DC6AE2001A7D18 /* PickerStyles.swift */,
-				F29E616426DC5EA0001A7D18 /* PickerTypesApp.swift */,
+				F25049F926DCC7ED004FCBFA /* ViewExtension.swift */,
+				F25049FA26DCC7F7004FCBFA /* PickerStyles.swift */,
+				F25049FB26DCC7F7004FCBFA /* PickerTypesApp.swift */,
 				F29E616626DC5EA0001A7D18 /* ContentView.swift */,
-				F29E617926DCB1DC001A7D18 /* PickerStyleView.swift */,
+				F25049FC26DCC7F7004FCBFA /* PickerStyleView.swift */,
 				F29E616826DC5EA1001A7D18 /* Assets.xcassets */,
 				F29E616D26DC5EA1001A7D18 /* Info.plist */,
 				F29E616A26DC5EA1001A7D18 /* Preview Content */,
@@ -147,11 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2504A0026DCC7F7004FCBFA /* PickerStyleView.swift in Sources */,
+				F25049FD26DCC7F7004FCBFA /* ViewExtension.swift in Sources */,
 				F29E616726DC5EA0001A7D18 /* ContentView.swift in Sources */,
-				F29E617626DC6AE2001A7D18 /* PickerStyles.swift in Sources */,
-				F29E617A26DCB1DC001A7D18 /* PickerStyleView.swift in Sources */,
-				F29E616526DC5EA0001A7D18 /* PickerTypesApp.swift in Sources */,
-				F29E617C26DCBCBA001A7D18 /* ViewExtension.swift in Sources */,
+				F25049FF26DCC7F7004FCBFA /* PickerTypesApp.swift in Sources */,
+				F25049FE26DCC7F7004FCBFA /* PickerStyles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +281,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PickerTypes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PickerTypes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -302,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PickerTypes/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PickerTypes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
